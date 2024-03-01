@@ -19,7 +19,7 @@ const CampSite=({backgroundImage,title,subtitle,peoplejoined}:
     `}>
       <div className="flex h-full flex-col items-start justify-between p-6 lg:px-20 lg:py-10 border-2 ">
         <div className="flexCenter gap-4">
-          <div  className="rounded-full bg-green-50 p-4">
+          <div  className="rounded-full  p-4">
             <Image
               src="/folded-map.svg"
               alt="map"
@@ -61,8 +61,8 @@ const CampSite=({backgroundImage,title,subtitle,peoplejoined}:
 
 const Camp = () => {
   return (
-    <section className='border-2
-    border-green-500 2xl:max-container
+    <section className='
+     2xl:max-container
     relative flex flex-col py-10
     lg:py-20 xl:mb-20'>
       <div className='hide-scrollbar flex h-[340px]
