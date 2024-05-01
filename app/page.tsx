@@ -5,17 +5,19 @@ import Hero from "@/components/Hero";
 import Features from "@/components/Features";
 import { FEATURES } from "@/constants";
 import Image from "next/image";
+import Navbar from "@/components/Navbar";
+import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
     <>
-      <Hero/>
-      <Camp/>
-      <Guide/>
-      <Features/>
-      <GetApp/>
-
+      <Navbar />
+      <Hero />
+      <Camp />
+      <Guide />
+      <Features />
+      <GetApp />
+      <Footer />
     </>
-    
   );
 }
